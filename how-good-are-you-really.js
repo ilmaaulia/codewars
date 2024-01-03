@@ -1,0 +1,1 @@
+const betterThanAverage = (classPoints, yourPoints) => classPoints.reduce((total, current) => total + current, 0) / classPoints.length < yourPoints;

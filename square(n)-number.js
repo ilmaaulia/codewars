@@ -1,0 +1,1 @@
+const squareSum = numbers => numbers.map(num => Math.pow(num, 2)).reduce((total, current) => total + current, 0);
